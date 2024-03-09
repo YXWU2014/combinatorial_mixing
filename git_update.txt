@@ -1,0 +1,241 @@
+ 
+git add v6_Fe_Cr_Ni_Al_Ta_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Al_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Cu_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Mn_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Al_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+ 
+git add v6_Fe_Cr_Ni_Co_Mo_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Nb_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_Ti_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+ 
+
+git add v6_Fe_Cr_Ni_Co_V_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Co_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Cu_Al_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Cu_Nb_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Cu_Si_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git add v6_Fe_Cr_Ni_Cu_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Cu_Ti_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Cu_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Al_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Cu_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Mo_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Nb_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Ta_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_Ti_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mn_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Al_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Cu_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Nb_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_Ti_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Mo_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Nb_Al_Sputtering/
+git commit -m "update"
+git push origin main
+
+
+
+git add v6_Fe_Cr_Ni_Nb_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Nb_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Nb_Ti_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Nb_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Si_Ta_Sputtering/
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Ti_Al_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Ti_Si_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_Ti_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Al_Sputtering/
+git commit -m "update"
+git push origin main
+
+git add v6_Fe_Cr_Ni_V_Cu_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Mn_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Mo_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Nb_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Si_Sputtering/
+git commit -m "update"
+git push origin main
+
+git add v6_Fe_Cr_Ni_V_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_Ti_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_V_W_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_W_Al_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_W_Si_Sputtering/
+git commit -m "update"
+git push origin main
+
+git add v6_Fe_Cr_Ni_W_Ta_Sputtering/ 
+git commit -m "update"
+git push origin main --force
+
+git add v6_Fe_Cr_Ni_W_Ti_Sputtering/
+git commit -m "update"
+git push origin main --force

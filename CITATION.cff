@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Combinatorial Mixing
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Yuxiang
+    family-names: Wu
+    email: yuxiang.wu@mpie.de
+    affiliation: Max-Planck-Institut für Eisenforschung
+identifiers:
+  - type: url
+    value: 'https://github.com/YXWU2014/IronOxide_TC.git'
+repository-code: 'https://github.com/YXWU2014/IronOxide_TC.git'
