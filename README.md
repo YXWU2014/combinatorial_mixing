@@ -17,11 +17,11 @@ The phase stability of each alloy composition is evaluated using two Gibbs energ
 
 ## Solid Solution Strengthening Calculation
 
-This repository offers a codebase for calculating solid solution strengthening, leveraging a generalized weak-pinning model that emphasizes the significance of statistical fluctuations in solute configurations for enhancing dislocation binding. The methodology, inspired by Leyson, Varvenne, Curtin et al., employs mechanical elasticity principles, where solute atoms acting as centers of dilation or contraction introduce volume misfits. Calculations consider factors such as the alloy's shear yield stress, energy barriers for thermally activated flow, and the initial tensile yield strength at various temperatures and strain rates, utilizing data from Pymatgen and the TCHEA4 database. This approach allows for a nuanced understanding of the compositional effects on solid-solution strengthening, supported by isotropic elasticity theory and CALPHAD-type evaluations for comprehensive alloy analysis.
+This repository offers a codebase for calculating solid solution strengthening, leveraging a generalized weak-pinning model that emphasizes the significance of statistical fluctuations in solute configurations for enhancing dislocation binding. The methodology, inspired by Leyson, Varvenne, Curtin et al., employs mechanical elasticity principles, where solute atoms acting as centers of dilation or contraction introduce volume misfits. Calculations consider factors such as the alloy's shear yield stress, energy barriers for thermally activated flow, and the initial tensile yield strength at various temperatures and strain rates, utilizing data from Pymatgen and the TCHEA4 database.  
 
 ## Thermodynamic Databases
 
-Thermodynamic calculations leverage the TCHEA4 high-entropy alloy database from ThermoCalc software, utilizing CALPHAD methods. These calculations are facilitated through ThermoCalc's Software Development Kit, incorporating both batch calculations and Scheil-Gulliver simulations for selected alloys.
+Thermodynamic calculations leverage the TCHEA4 high-entropy alloy database from ThermoCalc software, utilizing CALPHAD methods. These calculations are facilitated through ThermoCalc's Software Development Kit.
 
 ## Figures examples
 
