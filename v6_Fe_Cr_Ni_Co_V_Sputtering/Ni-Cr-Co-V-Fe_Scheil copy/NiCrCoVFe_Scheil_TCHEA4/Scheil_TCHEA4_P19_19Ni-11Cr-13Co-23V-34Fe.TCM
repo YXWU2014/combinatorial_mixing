@@ -1,0 +1,38 @@
+@@ TCHEA4
+
+GO SCHEIL
+START-WIZARD
+TCHEA4
+FE
+N
+Ni 19
+Cr 11
+Co 13
+V 23
+
+2000
+ 
+ 
+Y
+N
+NONE 
+
+@@ MAKE FILE /USERS/YWU/DESKTOP/IN625.EXP Y
+
+
+
+@@ S-D-A X NS(*)
+@@ S-D-A Y T
+@@ PL
+@@ make-exp-data file Scheil_all_NS_T.exp Y
+
+S-D-A X NS(FCC_L12)
+S-D-A Y T
+PL
+make-exp-data file OUTPUT_Scheil_TCHEA4_P19_19Ni-11Cr-13Co-23V-34Fe_FCC_NS_T.exp Y
+
+
+ 
+
+
+ 
