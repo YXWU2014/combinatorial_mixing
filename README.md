@@ -53,4 +53,4 @@ Thermodynamic calculations leverage the TCHEA4 high-entropy alloy database from 
 
 ### Solid Solution Strengthening
 
-<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_SolidSolutionStrengthening_298.15K.png" alt="Solid Solution Strengthening" style="height: 130px;"/>
+<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_SolidSolutionStrengthening_298.15K.png" alt="Solid Solution Strengthening" style="height: 200px;"/>
