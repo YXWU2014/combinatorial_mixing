@@ -29,7 +29,7 @@ Thermodynamic calculations leverage the TCHEA4 high-entropy alloy database from 
 
 ![Compositional Contour](v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-Fe-V_Sputter_CompoContour.png)  
 
-### Full Equilibrium Phase Map
+<!-- ### Full Equilibrium Phase Map
 
 ![Full Equilibrium Phase Map](v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_FullEquil.png)
 
@@ -37,19 +37,19 @@ Thermodynamic calculations leverage the TCHEA4 high-entropy alloy database from 
 
 ![Minimum Gibbs Energy Phase Map](v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_Gmin_473.15K.png)
 
-<!-- ### Solid Solution Strengthening
+### Solid Solution Strengthening
 
-![Alt text](v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_SolidSolutionStrengthening_298.15K.png) -->
+![Alt text](v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_SolidSolutionStrengthening_298.15K.png) -->  
 
-<!-- <img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-Fe-V_Sputter_CompoContour.png" alt="Compositional Contour" style="height: 150px;"/>
+<!-- <img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-Fe-V_Sputter_CompoContour.png" alt="Compositional Contour" style="height: 150px;"/> -->
 
 ### Full Equilibrium Phase Map
 
-<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_FullEquil.png" alt="Full Equilibrium Phase Map" style="height: 400px;"/>
+<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_FullEquil.png" alt="Full Equilibrium Phase Map" style="height: 200px;"/>
 
 ### Minimum Gibbs Energy Phase Map
 
-<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_Gmin_473.15K.png" alt="Minimum Gibbs Energy Phase Map" style="height: 400px;"/> -->
+<img src="v6_Fe_Cr_Ni_Co_V_Sputtering/Ni-Cr-Co-V-Fe_Gmin-FullEquil_Gmin_473.15K.png" alt="Minimum Gibbs Energy Phase Map" style="height: 200px;"/>
 
 ### Solid Solution Strengthening
 
