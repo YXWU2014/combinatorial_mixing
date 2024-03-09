@@ -1,0 +1,65 @@
+clc; clearvars; close all;
+
+% http://www.phy.ohio.edu/~hadizade/blog_files/PyColormap4Matlab.html
+% # set the Python path
+path_python = '/Users/ywu/opt/anaconda3/envs/tf-env/bin/python';
+% # importing Greys colormap from Matplotlib
+cl_RdYlBu_r = getPyPlot_cMap('RdYlBu_r', [], [], path_python);
+cl_RdBu_r  = getPyPlot_cMap('RdBu_r', [], [], path_python);
+cl_RdGy_r  = getPyPlot_cMap('RdGy_r', [], [], path_python);
+
+cmap1 = linspecer;
+cmap2 = cl_RdYlBu_r;
+cmap3 = cl_RdBu_r;
+cmap4 = cl_RdGy_r;
+
+%% Define the contour
+
+T = importdata('SputteringCompoMapNormalised.dat');
+T_ML = readtable('MultiTaskModel_NiCrCoMnFe_wt_pct_ML.xlsx',"VariableNamingRule","preserve");
+Z_VHN_ML = T_ML.H1_new_pred_KFold_mean;
+display(T_ML)
+
+tk_delta = 298.15;
+outputname = ['NiCrCoMnFe_', num2str(tk_delta),'K'];
+group = [ ...
+    {'Ni'}, {'Cr'}, {'Co'}, {'Mn'}, {'Fe'}; ...
+    ];
+i = 1;
+
+ 
+%% ML
+cmap = linspecer;
+ 
+figure;
+set(gcf,'units','points','position',[0,0,600,250]);
+
+hold on
+scatter(T(:,1), T(:,2), 300, Z_VHN_ML,"filled")
+scatter(T(:,1), T(:,2), 300, [0.5 0.5 0.5],'LineWidth',1)
+
+colormap(gca, cmap2)
+% caxis([4.8 6.2]);
+c = colorbar;
+% title('Vickers Hardness','Interpreter', 'latex');
+xlabel('position x', 'FontSize',14);
+ylabel('position y', 'FontSize',14);
+box on; axis square; xticks(0:10:100); yticks(0:10:100);
+set(gca,'xscale','lin', 'FontSize',14); xtickangle(45);
+set(gca,'yscale','lin', 'FontSize',14);
+
+labels = num2str((1:size(T,1))','%d');
+text(T(:,1), T(:,2), labels, ...
+    'horizontal','center', 'vertical','middle', ...
+    'color', [0.7 0.7 0.7], ...
+    'FontSize', 12, ...
+    'FontWeight', 'bold')
+ 
+c.FontSize = 16;
+c.Location = 'eastoutside';
+c.Label.String = 'Vikers hardness by neural network';
+c.Label.FontSize = 16;
+
+saveas(gcf, [char(group(i,1)), '-',char(group(i,2)), '-', char(group(i,3)), ...
+    '-', char(group(i,4)), '-', char(group(i,5)),'_NNH_Hardness_', num2str(tk_delta),'K', '.pdf'],'pdf');
+
