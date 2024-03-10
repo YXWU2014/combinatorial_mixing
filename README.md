@@ -17,7 +17,7 @@ The phase stability of each alloy composition is evaluated using two Gibbs energ
 
 ## Solid Solution Strengthening Calculation
 
-This repository offers a codebase for calculating solid solution strengthening, leveraging a generalised weak-pinning model emphasising the significance of statistical fluctuations in solute configurations for enhancing dislocation binding. The methodology employs mechanical elasticity principles, where solute atoms acting as centres of dilation or contraction introduce volume misfits. Calculations consider factors such as the alloy's shear yield stress, energy barriers for thermally activated flow, and the initial tensile yield strength at various temperatures and strain rates, utilising data from Pymatgen and the TCHEA4 database.  
+This repository offers a codebase for calculating solid solution strengthening, leveraging a generalised weak-pinning model that emphasises the significance of statistical fluctuations in solute configurations for enhancing dislocation binding. The methodology employs mechanical elasticity simplification, where solute atoms acting as centres of dilation or contraction introduce volume misfits. Calculations consider factors such as the alloy's shear yield stress, energy barriers for thermally activated flow, and the initial tensile yield strength at various temperatures and strain rates, utilising data from Pymatgen for modulus and the TCHEA4 database for molar volume.
 
 ## Figures examples
 
