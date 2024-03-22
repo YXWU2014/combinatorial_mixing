@@ -126,7 +126,7 @@ figure;
 set(gcf,'units','points','position',[0,0,600,250]);
 
 hold on
-scatter(T(:,1), T(:,2), 300, Z_H1_ML_std,"filled")
+scatter(T(:,1), T(:,2), 300, Z_H1_ML_std.*Gmin_eq_FCC_NaN,"filled")
 scatter(T(:,1), T(:,2), 300, [0.5 0.5 0.5],'LineWidth',1)
 scatter(T(:,1).*Gmin_eq_FCC_NaN, T(:,2).*Gmin_eq_FCC_NaN, 300, [0 0 0], 'LineWidth', 2);
 
@@ -152,8 +152,8 @@ c.Location = 'eastoutside';
 c.Label.String = 'Vickers hardness: Uncertainty';
 c.Label.FontSize = 16;
 
-minZ = floor(min(Z_H1_ML_std)/100)*100; % Adjust to your data
-maxZ = ceil(max(Z_H1_ML_std)/100)*100;  % Adjust to your data
+minZ = floor(min(Z_H1_ML_std.*Gmin_eq_FCC_NaN)/100)*100; % Adjust to your data
+maxZ = ceil(max(Z_H1_ML_std.*Gmin_eq_FCC_NaN)/100)*100;  % Adjust to your data
 c.Ticks = minZ:25:maxZ;
 
 saveas(gcf, [char(group(i,1)), '-',char(group(i,2)), '-', char(group(i,3)), ...
@@ -329,7 +329,7 @@ figure;
 set(gcf,'units','points','position',[0,0,600,250]);
 
 hold on
-scatter(T(:,1), T(:,2), 300, Z_C2_ML_std,"filled")
+scatter(T(:,1), T(:,2), 300, Z_C2_ML_std.*Gmin_eq_FCC_NaN,"filled")
 scatter(T(:,1), T(:,2), 300, [0.5 0.5 0.5],'LineWidth',1)
 scatter(T(:,1).*Gmin_eq_FCC_NaN, T(:,2).*Gmin_eq_FCC_NaN, 300, [0 0 0], 'LineWidth', 2);
 
@@ -355,8 +355,8 @@ c.Location = 'eastoutside';
 c.Label.String = 'Pitting potential: Uncertainty';
 c.Label.FontSize = 16;
 
-minZ = floor(min(Z_C2_ML_std)/100)*100; % Adjust to your data
-maxZ = ceil(max(Z_C2_ML_std)/100)*100;  % Adjust to your data
+minZ = floor(min(Z_C2_ML_std.*Gmin_eq_FCC_NaN)/100)*100; % Adjust to your data
+maxZ = ceil(max(Z_C2_ML_std.*Gmin_eq_FCC_NaN)/100)*100;  % Adjust to your data
 c.Ticks = minZ:50:maxZ;
 
 saveas(gcf, [char(group(i,1)), '-',char(group(i,2)), '-', char(group(i,3)), ...

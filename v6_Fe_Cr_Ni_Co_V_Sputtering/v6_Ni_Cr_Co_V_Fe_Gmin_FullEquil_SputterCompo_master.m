@@ -420,9 +420,7 @@ for permu_i = 1: size(group,1)
 
 end
 
-
-
-
+ 
 %%
 
 
